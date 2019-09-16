@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        fieldset { width: 60% }
+        legend { font-size:  1.5em; font-weight: bold}
+
+    </style>
+</head>
+<body>
+<h1>Basic Form</h1>
+<form name='myForm' action='formHandler.php' id='myForm' method="post">
+    <fieldset>
+        <legend> Shipping Information </legend>
+        <p><label>Name:</label> <input type='text' id='name' name='name'></p>
+        <p><label> Address</label>: <input type='text' id='Address' name='Address'></p>
+        <p><label> City</label>: <input type='text' id='city' name='city'></p>
+        <p><label>State</label>: <input type='text' id='state' name='state'></p>
+        <p><label>zip</label>: <input type='text' id='zip' name='zip'></p>
+    <br />
+    </fieldset>
+    <input type='submit' value='Submit Info'>
+</form>
+</body>
+</html>
