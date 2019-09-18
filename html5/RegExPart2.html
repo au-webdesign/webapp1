@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="application/javascript">
+        function validate() {
+            alert("Starting validate");
+        }
+    </script>
+</head>
+<body>
+<form onsubmit="validate()">
+
+    Name: <input name="user_name" placeholder="First and last name"  pattern="[A-Za-z]{4}\s*[A-Za-z]{4}" required>
+    <br /> Part Number<input name="part_numb" placeholder="Part starts with X,Y or Z followed by 3 numbers "
+                             pattern="[XYZ][\d]{3}" required>
+    <input type="submit" value="Search">
+</form>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="application/javascript">
+        function validate() {
+            alert("Starting validate");
+        }
+    </script>
+</head>
+<body>
+<form onsubmit="validate()">
+    Name: <input name="user_name" placeholder="Start with Cap 4 or more characters"  pattern="[A-Z][a-z]{3}" required>
+    <br /> Part Number<input name="part_numb" placeholder="X then 4 digits" pattern="X[\d]{4}">
+    <br />
+    <input type="submit" value="Search">
+</form>
+
+</body>
+</html>
