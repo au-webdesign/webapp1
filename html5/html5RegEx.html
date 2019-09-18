@@ -11,8 +11,8 @@
 </head>
 <body>
 <form onsubmit="validate()">
-    Name: <input name="user_name" placeholder="Start with Cap 4 or more characters"  pattern="[A-Z][a-z]{3}" required>
-    <br /> Part Number<input name="part_numb" placeholder="X then 4 digits" pattern="X[\d]{4}">
+    Name<input name="user_name" placeholder="aplle"  pattern="A\d\d\d|Sauce" required>
+    <br /> Part Number<input name="part_numb" placeholder="X then 4 digits" pattern="X[\d]{1,3}">
     <br />
     <input type="submit" value="Search">
 </form>
