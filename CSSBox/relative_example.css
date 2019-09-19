@@ -1,0 +1,23 @@
+body {
+    font-family: Arial;
+    font-size: 15px;
+    background-color: #c9e3ec;
+    line-height: 1.6em;
+    padding: 35px;
+}
+
+div.container {
+    background-color: #fff;
+    padding: 20px 20px 0 20px;
+    background-color: yellow;
+}
+div.footer {
+    font-weight: bold;
+    background-color:#80aab7;
+    color: #c9e3ec;
+    padding: 7px 20px;
+    margin: 3em -20px 0 -20px;
+}
+img{
+    border:2px solid #80aaa7;
+}
