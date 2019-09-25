@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dae8d15a-365f-4030-ad27-f066b8530e91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/InClassBoxofBoxes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exampleFixed.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/relative.html" afterDir="false" />
+    <list default="true" id="dae8d15a-365f-4030-ad27-f066b8530e91" name="Default Changelist" comment="New stuff or 9/20 including box model">
+      <change afterPath="$PROJECT_DIR$/LittleWebHutExample.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list_for_navigation_part5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple2Col.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Box1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Box1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InClassBoxofBoxes.html" beforeDir="false" afterPath="$PROJECT_DIR$/InClassBoxofBoxes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exampleFixed.html" beforeDir="false" afterPath="$PROJECT_DIR$/exampleFixed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/relative.html" beforeDir="false" afterPath="$PROJECT_DIR$/relative.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +60,11 @@
       <updated>1568808683431</updated>
       <workItem from="1568808685842" duration="34000" />
       <workItem from="1568909089019" duration="2474000" />
-      <workItem from="1568932528514" duration="4205000" />
+      <workItem from="1568932528514" duration="7956000" />
+      <workItem from="1569156202575" duration="1822000" />
+      <workItem from="1569242671076" duration="4322000" />
+      <workItem from="1569329353288" duration="2584000" />
+      <workItem from="1569417073159" duration="1762000" />
     </task>
     <task id="LOCAL-00001" summary="Adding elements to suppose CSS video">
       <created>1568934839983</created>
@@ -63,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568934839983</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="New stuff or 9/20 including box model">
+      <created>1568984511856</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1568984511856</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,6 +101,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding elements to suppose CSS video" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding elements to suppose CSS video" />
+    <MESSAGE value="New stuff or 9/20 including box model" />
+    <option name="LAST_COMMIT_MESSAGE" value="New stuff or 9/20 including box model" />
   </component>
 </project>

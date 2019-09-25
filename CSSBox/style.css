@@ -1,0 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.banner {
+    background-color: #11233b;
+    color: white;
+    padding: 10px 20px;
+}
+body {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
