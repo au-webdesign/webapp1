@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dae8d15a-365f-4030-ad27-f066b8530e91" name="Default Changelist" comment="New stuff or 9/20 including box model">
-      <change afterPath="$PROJECT_DIR$/LittleWebHutExample.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/list_for_navigation_part5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple2Col.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    <list default="true" id="dae8d15a-365f-4030-ad27-f066b8530e91" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/JSTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JSTest2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingJS.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingJS3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myScript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regExChecker.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testJS.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Box1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Box1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InClassBoxofBoxes.html" beforeDir="false" afterPath="$PROJECT_DIR$/InClassBoxofBoxes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exampleFixed.html" beforeDir="false" afterPath="$PROJECT_DIR$/exampleFixed.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/relative.html" beforeDir="false" afterPath="$PROJECT_DIR$/relative.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -48,6 +47,16 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="JSTest.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/CSSBox/JSTest.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.JSTest.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -64,7 +73,12 @@
       <workItem from="1569156202575" duration="1822000" />
       <workItem from="1569242671076" duration="4322000" />
       <workItem from="1569329353288" duration="2584000" />
-      <workItem from="1569417073159" duration="1762000" />
+      <workItem from="1569417073159" duration="2801000" />
+      <workItem from="1569530667911" duration="8964000" />
+      <workItem from="1569680765476" duration="2844000" />
+      <workItem from="1569764634229" duration="978000" />
+      <workItem from="1569966505539" duration="1151000" />
+      <workItem from="1570020533824" duration="5228000" />
     </task>
     <task id="LOCAL-00001" summary="Adding elements to suppose CSS video">
       <created>1568934839983</created>
@@ -80,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568984511856</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="list for navigation">
+      <created>1569419222357</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1569419222357</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +123,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding elements to suppose CSS video" />
     <MESSAGE value="New stuff or 9/20 including box model" />
-    <option name="LAST_COMMIT_MESSAGE" value="New stuff or 9/20 including box model" />
+    <MESSAGE value="list for navigation" />
+    <option name="LAST_COMMIT_MESSAGE" value="list for navigation" />
   </component>
 </project>
