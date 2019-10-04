@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dae8d15a-365f-4030-ad27-f066b8530e91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JSTest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSTest2.js" afterDir="false" />
+    <list default="true" id="dae8d15a-365f-4030-ad27-f066b8530e91" name="Default Changelist" comment="list for navigation">
+      <change afterPath="$PROJECT_DIR$/InClass_10_4_Functions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_Functions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_Functions2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_Functions3_arrays.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TestingJS.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TestingJS3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inClass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inClass2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inClass3.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/myScript.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/regExChecker.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/testJS.html" afterDir="false" />
@@ -20,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -33,7 +41,14 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript 1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\webapp1\CSSBox" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -47,12 +62,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.functions2.js">
     <configuration name="JSTest.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/CSSBox/JSTest.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="functions2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="functions2.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.functions2.js" />
         <item itemvalue="JavaScript Debug.JSTest.html" />
       </list>
     </recent_temporary>
@@ -79,6 +98,10 @@
       <workItem from="1569764634229" duration="978000" />
       <workItem from="1569966505539" duration="1151000" />
       <workItem from="1570020533824" duration="5228000" />
+      <workItem from="1570032315942" duration="199000" />
+      <workItem from="1570055572461" duration="165000" />
+      <workItem from="1570055753241" duration="4591000" />
+      <workItem from="1570137663017" duration="14277000" />
     </task>
     <task id="LOCAL-00001" summary="Adding elements to suppose CSS video">
       <created>1568934839983</created>
@@ -101,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569419222357</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Code for in class demonstration on 10/2">
+      <created>1570032466295</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1570032466295</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +154,7 @@
     <MESSAGE value="Adding elements to suppose CSS video" />
     <MESSAGE value="New stuff or 9/20 including box model" />
     <MESSAGE value="list for navigation" />
-    <option name="LAST_COMMIT_MESSAGE" value="list for navigation" />
+    <MESSAGE value="Code for in class demonstration on 10/2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Code for in class demonstration on 10/2" />
   </component>
 </project>
