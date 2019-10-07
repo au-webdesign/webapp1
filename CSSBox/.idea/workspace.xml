@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dae8d15a-365f-4030-ad27-f066b8530e91" name="Default Changelist" comment="list for navigation">
-      <change afterPath="$PROJECT_DIR$/InClass_10_4_Functions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS_Functions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS_Functions2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS_Functions3_arrays.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestingJS.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestingJS3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inClass.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inClass2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inClass3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myScript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/regExChecker.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testJS.html" afterDir="false" />
+    <list default="true" id="dae8d15a-365f-4030-ad27-f066b8530e91" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/JSAssoc_arrays.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_10_7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LotsOfObjects.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inClass_10_7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inClass_10_7_B.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js_assoc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js_objects.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js_objects2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js_objects2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js_objects3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js_objects3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js_objects4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js_objects4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js_objectsProtoType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moreObjects.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inClass3.js" beforeDir="false" afterPath="$PROJECT_DIR$/inClass3.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +102,8 @@
       <workItem from="1570032315942" duration="199000" />
       <workItem from="1570055572461" duration="165000" />
       <workItem from="1570055753241" duration="4591000" />
-      <workItem from="1570137663017" duration="14277000" />
+      <workItem from="1570137663017" duration="14792000" />
+      <workItem from="1570309746177" duration="28519000" />
     </task>
     <task id="LOCAL-00001" summary="Adding elements to suppose CSS video">
       <created>1568934839983</created>
@@ -131,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570032466295</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Adding material from 10/4">
+      <created>1570197985155</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1570197985155</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +164,7 @@
     <MESSAGE value="New stuff or 9/20 including box model" />
     <MESSAGE value="list for navigation" />
     <MESSAGE value="Code for in class demonstration on 10/2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Code for in class demonstration on 10/2" />
+    <MESSAGE value="Adding material from 10/4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding material from 10/4" />
   </component>
 </project>

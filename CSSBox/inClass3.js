@@ -1,5 +1,5 @@
 let myList = new Array()
-let myList2 = [];     // more common
+let myList2 = []     // more common
 let myList3 = new Array("Apples", "Pears", "Plumbs")
 let myList4 = ["Hockey" , "Football", "Baseball"]     // more common
 
@@ -17,11 +17,11 @@ fruits[4] = "Apples"
 alert( "Fruit Size=" +fruits.length )
 //alert( "Item 1 is =" +fruits[1] )
 fruits.sort()
-for ( f in fruits ) {
+for ( let f in fruits ) {
    console.log("\nFirst F=" + fruits[f] )
 }
 
-for ( i=0; i<fruits.length; i++ ) {
+for ( let i=0; i<fruits.length; i++ ) {
    console.log("\nSecond F=" + fruits[i] )
 }
 
