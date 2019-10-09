@@ -2,23 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dae8d15a-365f-4030-ad27-f066b8530e91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JSAssoc_arrays.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS_10_7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LotsOfObjects.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inClass_10_7.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inClass_10_7_B.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js_assoc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js_objects.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js_objects2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js_objects2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js_objects3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js_objects3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js_objects4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js_objects4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js_objectsProtoType.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moreObjects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DOM_inClass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DOM_inClass_10_9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HtmlButtonToFunctions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Objects_inClass_10_9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inClassObjects_10_9.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inClass_buttons.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inClass3.js" beforeDir="false" afterPath="$PROJECT_DIR$/inClass3.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -103,7 +93,9 @@
       <workItem from="1570055572461" duration="165000" />
       <workItem from="1570055753241" duration="4591000" />
       <workItem from="1570137663017" duration="14792000" />
-      <workItem from="1570309746177" duration="28519000" />
+      <workItem from="1570309746177" duration="28585000" />
+      <workItem from="1570469666902" duration="1339000" />
+      <workItem from="1570505338241" duration="18919000" />
     </task>
     <task id="LOCAL-00001" summary="Adding elements to suppose CSS video">
       <created>1568934839983</created>
@@ -140,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570197985155</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Adding material from 10/7 which include objects and associative arrays">
+      <created>1570457102324</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1570457102324</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +164,7 @@
     <MESSAGE value="list for navigation" />
     <MESSAGE value="Code for in class demonstration on 10/2" />
     <MESSAGE value="Adding material from 10/4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding material from 10/4" />
+    <MESSAGE value="Adding material from 10/7 which include objects and associative arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding material from 10/7 which include objects and associative arrays" />
   </component>
 </project>
