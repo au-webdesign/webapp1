@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dae8d15a-365f-4030-ad27-f066b8530e91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DOM_inClass.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DOM_inClass_10_9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HtmlButtonToFunctions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Objects_inClass_10_9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inClassObjects_10_9.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inClass_buttons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/CSSBox.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InClass_10_11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js_10_11.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html5/.idea/html5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midterm/.idea/midterm.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inClassObjects_10_9.js" beforeDir="false" afterPath="$PROJECT_DIR$/inClassObjects_10_9.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_objects3.js" beforeDir="false" afterPath="$PROJECT_DIR$/js_objects3.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,9 +32,10 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript 1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../midterm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
   </component>
   <component name="RecentsManager">
@@ -95,7 +97,9 @@
       <workItem from="1570137663017" duration="14792000" />
       <workItem from="1570309746177" duration="28585000" />
       <workItem from="1570469666902" duration="1339000" />
-      <workItem from="1570505338241" duration="18919000" />
+      <workItem from="1570505338241" duration="19250000" />
+      <workItem from="1570738738635" duration="5702000" />
+      <workItem from="1570881191514" duration="1036000" />
     </task>
     <task id="LOCAL-00001" summary="Adding elements to suppose CSS video">
       <created>1568934839983</created>
@@ -139,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570457102324</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Adding Changes for 10_5">
+      <created>1570630175130</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1570630175131</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +176,7 @@
     <MESSAGE value="Code for in class demonstration on 10/2" />
     <MESSAGE value="Adding material from 10/4" />
     <MESSAGE value="Adding material from 10/7 which include objects and associative arrays" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding material from 10/7 which include objects and associative arrays" />
+    <MESSAGE value="Adding Changes for 10_5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Changes for 10_5" />
   </component>
 </project>

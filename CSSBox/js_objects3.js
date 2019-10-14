@@ -58,3 +58,8 @@ userPica.updateLoginCt()
 //
 // this is not possible until return the 'object' via this
 userPica.shortLogin().updateLoginCt().updateLoginCt().shortLoginOut()
+
+let myCards = Array( userJake, userPica );
+for ( let i in  myCards ){
+    console.log( `Card:${myCards[i].name} `)
+}
