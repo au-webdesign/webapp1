@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dae8d15a-365f-4030-ad27-f066b8530e91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/CSSBox.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InClass_10_11.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js_10_11.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../html5/.idea/html5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../midterm/.idea/midterm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InClass_10_21_Classes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mySales_10_21.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inClassObjects_10_9.js" beforeDir="false" afterPath="$PROJECT_DIR$/inClassObjects_10_9.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js_objects3.js" beforeDir="false" afterPath="$PROJECT_DIR$/js_objects3.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,6 +95,9 @@
       <workItem from="1570505338241" duration="19250000" />
       <workItem from="1570738738635" duration="5702000" />
       <workItem from="1570881191514" duration="1036000" />
+      <workItem from="1571614350251" duration="7243000" />
+      <workItem from="1571674671648" duration="561000" />
+      <workItem from="1571766381094" duration="1335000" />
     </task>
     <task id="LOCAL-00001" summary="Adding elements to suppose CSS video">
       <created>1568934839983</created>
