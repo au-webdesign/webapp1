@@ -17,6 +17,7 @@ function showCities() {
         alert( c )
         str += `<br /> <img src="${city[c].img}" height='60px' width='60px'`
         str +=  ` onclick="showDistance('${c}')" > `
+        // the inclass issue was that I needed to write this '${c}' in single quotes
         alert( str )
     }
     cArea.innerHTML = str
