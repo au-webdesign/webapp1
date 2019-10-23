@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dae8d15a-365f-4030-ad27-f066b8530e91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/InClass_10_21_Classes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mySales_10_21.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw/.idea/hw.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rockpaper/.idea/rockpaper.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InClass_10_21_Classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/InClass_10_21_Classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mySales_10_21.js" beforeDir="false" afterPath="$PROJECT_DIR$/mySales_10_21.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +32,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript 1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../midterm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hw/distanceFromChicago" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
   </component>
   <component name="RecentsManager">
@@ -97,7 +99,9 @@
       <workItem from="1570881191514" duration="1036000" />
       <workItem from="1571614350251" duration="7243000" />
       <workItem from="1571674671648" duration="561000" />
-      <workItem from="1571766381094" duration="1335000" />
+      <workItem from="1571766381094" duration="5198000" />
+      <workItem from="1571794550372" duration="501000" />
+      <workItem from="1571836151216" duration="1877000" />
     </task>
     <task id="LOCAL-00001" summary="Adding elements to suppose CSS video">
       <created>1568934839983</created>
@@ -148,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570630175131</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Adding Changes for 10_21">
+      <created>1571768223877</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1571768223877</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +186,7 @@
     <MESSAGE value="Adding material from 10/4" />
     <MESSAGE value="Adding material from 10/7 which include objects and associative arrays" />
     <MESSAGE value="Adding Changes for 10_5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Changes for 10_5" />
+    <MESSAGE value="Adding Changes for 10_21" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Changes for 10_21" />
   </component>
 </project>
