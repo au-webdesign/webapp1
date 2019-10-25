@@ -24,4 +24,11 @@ function showCities() {
 }
 function showDistance( cName ) {
     alert( "Got CName=" + cName )
+    let item = city[cName]
+    let d = item.dist
+    let resArea = document.getElementById("results")
+    let oStr = "<span style='color:red'>"
+    oStr += `The Distance to ${cName} is ${d} miles`
+    oStr += "</span>"
+    resArea.innerHTML = oStr
 }
