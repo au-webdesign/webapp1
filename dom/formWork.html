@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Form</title>
+    <script type="text/javascript">
+        function setIt() {
+            document.forms['myform'].myName.value = "Dave was here ";
+            document.forms[0].myName2.value = "And I guess here too";
+            document.myform.myName3.value = "OK I really was here";
+        }
+    </script>
+</head>
+<body>
+<form name=myform>
+    Name:
+    <input type=text name="myName" value="" onClick="setIt()">
+    <input type=text name="myName2" value="" onClick="setIt()">
+    <input type=text name="myName3" value="" onClick="setIt()">
+</form></body></html>
+
+</body>
+</html>

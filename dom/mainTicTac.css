@@ -1,0 +1,46 @@
+div {
+    width:50px;
+    width:50px;
+}
+span {
+    width:100%;
+    height:100%;
+    background-color:blue;
+    display: inline-block;
+    vertical-align: center;
+}
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 6px solid #222;
+}
+
+td::after {
+    content: "";
+    display: block;
+    margin-top: 100%;
+}
+
+td {
+    border: 6px solid #222;
+}
+
+td:first-of-type {
+    border-left-color: transparent;
+    border-top-color: transparent;
+}
+
+td:nth-of-type(2) {
+    border-top-color: transparent;
+}
+
+td:nth-of-type(3) {
+    border-right-color: transparent;
+    border-top-color: transparent;
+}
+
+tr:nth-of-type(3) td {
+    border-bottom-color: transparent;
+}

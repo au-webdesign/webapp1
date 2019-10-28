@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM Manipulation</title>
+    <script src="DomWork.js"></script>
+</head>
+<body>
+<h2 id="myTitle"> Dom work is getting going </h2>
+<div id="myBox" style="background-color: rebeccapurple; width: 100px; height: 100px"
+   onmouseover="changeBlock( this )"
+  onmouseout="changeBlockOut( this )" onmousedown="changeBlockDown( this )" onmouseup="changeBlockUp( this )">
+    box 1
+</div>
+<br/>
+<div id="myBox2" style="background-color: red; width: 100px; height: 150px"
+    onmouseover="changeBlock( this )"
+    onmouseout="changeBlockOut( this )" onmousedown="changeBlockDown( this )" onmouseup="changeBlockUp( this )">
+    box 2
+</div>
+<span id="myArea">Area is here </span>
+<span id="myVoid">
+    <span id="aaa" style="display:none">*</span>
+    Void where prohibited by law!
+</span>
+<button onclick="changeDom()"> Change the DOM </button>
+<button onclick="showHomer()"> Show Homer</button>
+<button onclick="changeHomer()"> Change Homer</button>
+</body>
+</html>
