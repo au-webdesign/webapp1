@@ -9,9 +9,7 @@
             alert('You must provide an email address.');
             oStr += "\n Error: You Must provide an email address"
             return false;
-         //return false;
-        }
-        //if ( oStr == '' ){
+        } //if ( oStr == '' ){
             //alert( oStr )
             //return false
         //} else {

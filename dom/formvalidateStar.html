@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html><head><title> A Simple Form </title>
+    <script type="text/javascript">
+        function validate() {
+            var nvac = document.myform.vacation.length;
+            var vacation_type = '';
+            for ( i=0; i<nvac; i++ ) {
+                if ( document.myform.vacation[i].checked ) {
+                    vacation_type = document.myform.vacation[i].value;
+                }
+            }
+            if ( !vacation_type ) {
+                alert( 'You have not picked a vacation type.');
+                document.getElementById("r1").style.display='inline';
+                return false;
+            }
+            if ( vacation_type == 'camping' && document.myform.boat.value != '' ) {
+                document.myform.boat.value = '';
+                alert ( "Do not provide a boat type unless you fish or sail");
+                document.getElementById("t1").style.display='inline';
+                return false;
+            } else if ( vacation_type == 'fishing' || vacation_type == 'sailing' && document.myform.boat.value == '') {
+                alert ( "You must provide some input on a boat type if you select fishing or sailing");
+                document.getElementById("t1").style.display='inline';
+                return false;
+            } else {
+                return true;
+            }
+        }
+    </script></head>
+<body>
+<form name='myform' method='post' action='mailto:dlash01@yahoo.com'  onsubmit="return validate();")>
+    <br> <span style='display:none;color:red' id='r1'> * </span>
+    Check your favorite vacations
+    <input type=radio name='vacation' value='sailing'> sailing
+    <input type=radio name='vacation' value='camping'> camping
+    <input type=radio name='vacation' value='fishing'> fishing
+    <br> <span style='display:none;color:red' id='t1'> * </span>
+    If you sail or fish, please describe your ideal boat?
+    <input type=text size=55 name=boat>
+    <br><input type=submit>
+</form>

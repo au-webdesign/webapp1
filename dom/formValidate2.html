@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form Validate</title>
+    <script src="validateMyForm2.js"></script>
+</head>
+<body>
+<html>
+<body>
+<form name='myform' onsubmit="return(validateForm2())" action="sentTheForm.php">
+    <br /> Check your favorite type of vacation
+    <input type='checkbox' name='vacation' value='sailing'> sailing
+    <input type=checkbox name='vacation' value='camping'> camping
+    <input type=checkbox name='vacation' value='fishing'> fishing
+
+    <br /> Yes email me: <input type='checkbox' name='emailMe' value='yes'>
+    <! ------------- add this later !>
+    <br> What state do you come from?
+    <select name=state multiple size=3>
+        <option value='IL'> Illinois </option>
+        <option value='IN'> Indiana </option>
+        <option value='IA'> Iowa </option>
+        <option value='Confused'> Confused </option>
+    </select>
+    <br>Can I contact you?
+    <input type='radio' name='contact' value='Yes'> Yes
+    <input type='radio' name='contact' value='No'> No
+
+    <input type='submit'>
+</form>
+</body></html>

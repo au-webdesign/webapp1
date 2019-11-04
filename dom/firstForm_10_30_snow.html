@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>First Form</title>
+    <script>
+        function setValue(){
+           // access the form element
+            document.forms['myForm'].text1.value = "I was here"
+            document.forms.myForm.text2.value = "And I was here too"
+            document.forms[0].text3.value = "And finally I was here"
+            formObj = document.forms.myForm;
+            // text fields appear to JS as a regular object
+            formObj.text1.value = "I just changed it"
+            let theVal = formObj.text1.value
+        }
+    function calcTip() {
+           let billAmount = document.forms.myTipper.billAmount.value;
+           alert(`billAmount:${billAmount}`)
+           if ( billAmount == null ) {
+               alert("Stop messing with me and enter a value")
+           }
+           if ( billAmount > 0 && billAmount < 100000 ){
+               newVal = billAmount * .15
+               document.forms.myTipper.tipAmount.value = newVal;
+
+           } else {
+               alert( `billAmount:${billAmount} is invalid`)
+           }
+    }
+    function dontChange(){
+            alert("Sorry cannot change this field")
+            document.forms.myTipper.billAmount.focus();
+    }
+    let maxLen = 10
+    function countChars( obj ) {
+            let tweetText =obj.value;
+            let tweetLen = tweetText.length;
+            alert(`tweetLen=${tweetLen}`)
+            charsRem = maxLen - tweetLen
+            if ( charsRem <= 0 ) {
+               alert("No more characters rem:" + charsRem )
+                tweet = tweet.substr(0, tweetLen -1 )
+                obj.value = tweet;
+            }
+            document.getElementById("charRemaining").innerText = charsRem
+    }
+    </script>
+</head>
+<body>
+<form name="myForm">
+    Name1: <input type="text" name="text1" onclick="setValue()" />
+    Name2: <input type="text" name="text2" onclick="setValue()" />
+    Name3: <input type="text" name="text3" onclick="setValue()" />
+</form>
+<h2> Tip Calculator Part </h2>
+<form name="myTipper">
+    Bill Amount: <input type="text" name="billAmount" onchange="calcTip()" />
+    <br /> Tip: <input type="text" name="tipAmount" onclick="dontChange()"/>
+</form>
+<h2> Tweet This! </h2>
+<form name="myTweet">
+   <textarea name="tweet" id="tweet" onkeyup="countChars(this)"></textarea>
+    <br /> <div id="charRemaining" style="display: inline" >
+
+    </div>
+    characters remaining
+
+</form>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>More on HTML forms</title>
+    <script src="validate.js"></script>
+</head>
+<body>
+<! ----- Return formHander()  !>
+<form name="myForm" method='get' action="sendItHere.php" onSubmit="return validateIt()">
+    <br /> Where do you want to go on vacation?
+    <input type="checkbox" name="vacation" value="FL" /> Florida
+    <! ----- We can get this by: document.myForm.vacation[1].value !>
+    <input type="checkbox" name="vacation" value="TX" /> Texas
+    <input type="checkbox" name="vacation" value="CA" /> California
+
+    <! ----- with only 1 item with this name (contact) it not an array !>
+    <! ----- We can get this by: document.myForm.contact.value !>
+    <br /> May we contact you?
+    <input type="checkbox" name="contact" value="Yes" /> Yes
+
+    <! ----- Lets add select drop downs !>
+    <br /> What state are you in?
+    <select name="state" multiple size="3">
+        <option value="IL"> Illinois </option>
+        <option value="In"> Indiana </option>
+        <option value="IA"> Iowa </option>
+        <option value="Confused"> I am in the state of confusion </option>
+    </select>
+    <input type="submit" value="Submit It">
+
+</form>
+
+</body>
+</html>

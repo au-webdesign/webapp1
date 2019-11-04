@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Radio Buttons</title>
+    <script>
+       function radioValidate()  {
+           let r1 = document.getElementById("rad1")
+           r1.style.display = 'none'
+           let r2 = document.getElementById("rad2")
+           r2.style.display = 'none'
+           let theRad = document.myFormRadio.dessert
+           let ret = checkRadio( theRad )
+           let oStr = ""
+           if ( !ret ){
+               let r1 = document.getElementById("rad1")
+               r1.style.display = 'inline'
+               oStr =  "Dude you pick to get a dessert"
+           } else {
+               alert( `You like ${ret}` )
+           }
+           let theRad2 = document.myFormRadio.joke
+           let ret2 = checkRadio( theRad2 )
+           if ( !ret2 ){
+               let r2 = document.getElementById("rad2")
+               r2.style.display = 'inline'
+               if ( oStr != ""  ) oStr += ", "
+               oStr += "\nDude you pick to get an answer"
+           } else {
+               if ( ret2 == "fly"){
+                   alert( `You like ${ret2} and you are right` )
+               } else {
+                   alert( `You like ${ret2} and you are wrong` )
+               }
+           }
+           if ( oStr != "" )  alert( oStr )
+           return false
+       }
+       function checkRadio( theRadio ){
+           // Return false if none are checked
+           // or Return the value of the checked one
+           let n = theRadio.length
+           for ( let i=0; i<n; i++ ) {
+               if ( theRadio[i].checked ){
+                  return theRadio[i].value
+               }
+           }
+           return false
+       }
+    </script>
+</head>
+<body>
+<form name="myFormRadio"  id="bearsAreBad" action="someplacesendthisform" method="get"
+                                                                     onSubmit="return radioValidate()">
+    <br />
+         <span id='rad1' style="color:red;display:none">  * </span>
+         What is your favorite dessert (you must click 1):
+         <br /> ice cream: <input type="radio" name="dessert" id="kjdfk" value="IC" >
+         <br /> Broccoli: <input type="radio" name="dessert" id="kjdfk" value="BR">
+         <br /> pie: <input type="radio" name="dessert" id="kjdfk" value="PIE">
+    <br />
+    <span id='rad2' style="color:red;display:none">  * </span>
+    Why did the boy throw his watch? (you must click 1):
+    <br /> Test his arm: <input type="radio" name="joke" id="kjdfk" value="arm" >
+    <br /> Hit his neighbor: <input type="radio" name="joke" id="kjdfk" value="hit">
+    <br /> To see time fly: <input type="radio" name="joke" id="kjdfk" value="fly">
+    <input type="submit" value="Click me"/>
+
+</form>
+
+</body>
+</html>

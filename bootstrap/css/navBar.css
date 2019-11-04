@@ -1,0 +1,16 @@
+/* Show it is fixed to the top */
+body {
+    min-height: 75rem;
+    padding-top: 4.5rem;
+}
+#currNav {
+    color: red;
+    font-size: 1.5rem;
+}
+.itemName {
+    color: blue;
+    font-size: 1.5rem;
+}
+a:hover {
+    color: blue;
+}
