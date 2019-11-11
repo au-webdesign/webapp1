@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Bootstrap</title>
+</head>
+<body>
+<!-- start adding navbar as makin container -->
+<!-- default is to always stack (mobile first) untill add navbar-expand-sm -->
+<nav class="navbar bg-dark navbar-dark navbar-expand-sm" style="background-color: red;">
+    <!-- placing enitre navbar-nav in a container make it line up better with text -->
+    <div class="container">
+        <div class="navbar-brand">
+            <img src="images/homerthinks.jpg" alt="Logo" style="width:80px; height: 80px"/>
+            Homers Home Repair
+        </div>
+    <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#"> Homes </a>
+        <a class="nav-item nav-link" href="#"> Mission </a>
+        <a class="nav-item nav-link"  href="#"> Services </a>
+        <a class="nav-item nav-link" href="#"> Staff </a>
+        <a class="nav-item nav-link" href="#"> Testimonials </a>
+    </div>
+        <!-- d-none makes it disappear but display it at the large size-->
+        <span class="navbar-text d-none d-lg-block"> Let homer fix your home </span>
+    </div>
+</nav>
+<div class="container" >
+    <div class="row">
+        <section class="col-12">
+            section content
+        </section>
+</div><!-- row -->
+</div><!-- container -->
+
+<script src="js/jquery.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
