@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Bootstrap</title>
+</head>
+<body>
+<h1> Hello from Jquery </h1>
+<div id="myDiv">
+    here is some stuff
+</div>
+<form name="myForm">
+    Question: <input type="text" id="myText" value="question1"/>
+</form>
+<button id="myButton" class="btn btn-primary"> Click me</button>
+<button id="myButton2" class="btn btn-primary"> Click me2</button>
+<script src="js/jquery.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function(){
+        alert("Hello")
+        $('#myButton').click( function(){
+            let content = $('#myDiv').text();
+            $('#myDiv').html("<ol> <li> HELLO</li><li>Goodbye</li></ol>")
+            let ans = $('#myText').val()
+            alert( ans )
+        })
+        $('#myButton2').click( function(){
+            alert("CLICK2!")
+        })
+    })
+</script>
+</body>
+</html>
