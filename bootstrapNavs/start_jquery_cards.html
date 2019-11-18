@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Bootstrap</title>
+    <script src="js/jquery.slim.min.js"></script>
+    <script>
+
+        $(document).ready(function(){
+            $("#card1").html("<img src='images/playingCardBack.PNG' style='height:50px width:50px'>" )
+            $("#card2").html("<img src='images/playingCardBack.PNG' style='height:50px width:50px'>" )
+            $("#showCard1").click(function(){
+                $("#card1").html("<img src='images/playingCardAce.PNG' style='height:50px width:50px'>" )
+            });
+            $("#showCard2").click(function(){
+                $("#card2").html("<img src='images/playingCardTwo.PNG' style='height:50px width:50px'>" )
+            });
+            $("#reset").click(function(){
+                $("#card1").html("<img src='images/playingCardBack.PNG' style='height:50px width:50px'>" )
+                $("#card2").html("<img src='images/playingCardBack.PNG' style='height:50px width:50px'>" )
+            });
+        })
+    </script>
+</head>
+<body>
+<div class="container" >
+    <div class="row">
+        <section class="col-4">
+            <span id="card1"></span>
+            <br/><button id="showCard1" style="display: inline">Show1</button>
+        </section>
+        <section class="col-4">
+            <span id="card2"></span>
+            <br/><button id="showCard2" style="display: inline">Show2</button>
+        </section>
+    </div><!-- row -->
+</div><!-- container -->
+<h2 > Hello </h2>
+<p class="test">This is another paragraph is a normal paragragh</p>
+<button id="reset">Reset</button>
+
+
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

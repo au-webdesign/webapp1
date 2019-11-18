@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Bootstrap</title>
+    <script src="js/jquery.slim.min.js"></script>
+    <script>
+        $(document).ready(function(){
+                $("#go").click( function() {
+                    let v = $("#bill").val()
+                    let bill = parseInt(v)
+                    let tip = bill * .15
+                    $("#results").html(`Tip:${tip} for Bill:${bill}` )
+                })
+        });
+    </script>
+</head>
+<body>
+<h2 > Hello </h2>
+<p class="test">This is another paragraph is a normal paragragh</p>
+<form id="myForm">
+   <input type="text"  id="bill" placeholder="bill amount" value="0"/>
+</form>
+<button id="go"> Calc Tip </button>
+<br />
+<span id="results"> Results Here</span>
+
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

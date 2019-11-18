@@ -7,10 +7,23 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <title>Bootstrap</title>
+    <script src="js/jquery.slim.min.js"></script>
+    <script>
+
+        $(document).ready(function(){
+            $("button").click(function(){
+                alert("Hello");
+                $(".test").hide();
+            });
+        })
+    </script>
 </head>
 <body>
-<h1> Hello from BS </h1>
-<script src="js/jquery.slim.min.js"></script>
+<h2 > Hello </h2>
+<p class="test">This is another paragraph is a normal paragragh</p>
+<button>Click me</button>
+
+
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 </body>

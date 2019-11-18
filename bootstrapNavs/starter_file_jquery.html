@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:script="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/9dbf1e34ab.js" crossorigin="anonymous"></script>
+    <title>Bootstrap</title>
+</head>
+<body>
+<h1> Hello from BS and JQ</h1>
+<p id="myStuff"> This is some stuff I just added
+    <span> Hello there spanners stuff 111  </span>
+</p>
+<p class="bananas">
+    Please dont ask my why this is here
+    <span> Hello there spanners </span>
+</p>
+<p id="myStuff3" style="display:none"> This better not be there </p>
+<p class="bananas" style="background-color:yellow"> Bananas are good </p>
+It is the time for android! <i class="fab fa-android" style="color:red"></i>
+<script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+    $(document).ready( function(){
+        alert("We made it")
+        //$("#myStuff").hide()
+        alert("Re Alert")
+        $("#myStuff3").show()
+        $("p span")
+            .css("background-color", "blue")
+            .css("font-size", "1.5em")
+    });
+</script>
+</body>
+</html>
