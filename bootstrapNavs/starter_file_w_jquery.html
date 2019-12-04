@@ -1,30 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<link>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css"></link>
     <title>Bootstrap</title>
-    <script src="js/jquery.slim.min.js"></script>
-    <script>
-
-        $(document).ready(function(){
-            $("button").click(function(){
-                alert("Hello");
-                $(".test").hide();
-            });
-        })
-    </script>
 </head>
 <body>
-<h2 > Hello </h2>
-<p class="test">This is another paragraph is a normal paragragh</p>
-<button>Click me</button>
-
-
+<h1> Hello from BS </h1>
+<form name="myForm">
+    Do you like to eat?
+   <br /> Yes<input type="radio"  name="myRadio" value="Yes">
+   <br /> No <input type="radio" name="myRadio" value="No">
+    <br /> What protein do you eat?
+    <select name="protein" id="p" size="3">
+        <option value="ham"> Ham </option>
+        <option value="chicken"> Chicken </option>
+        <option value="pizza"> Pizza </option>
+        <option value="turkey"> Turkey </option>
+    </select>
+    <br /> What desert do you like?
+    <input type="checkbox" name="desert" id="c1" value="IC"> Ice Cream
+    <input type="checkbox" name="desert" id="c2" value="Pie"> Pie
+    <input type="checkbox" name="desert" id="c3" value="cake"> Cake
+    <input type="checkbox" name="desert" id="c4" value="bananas"> Bananas
+   <button id="myButton"> Click to start</button>
+</form>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.slim.min.js"></script>
+<script>
+    $(document).ready( function() {
+        $("#myButton").click( function() {
+            alert( "CLicked")
+            let rad = $("input:radio[name='myRadio']:checked").val()
+            if (rad == undefined ) {
+                alert(`dude pick something rad=${rad}`)
+            } else {
+                alert(`its ok rad=${rad}`)
+            }
+            let s = $("#p option:selected").val();
+            if (s == undefined ) {
+                alert(`pick some protein s=${s}`)
+            } else {
+                alert(`OK protein s=${s}`)
+            }
+            let cb = $("input:checkbox[name='desert']:checked").each( function(i, checkObj ){
+                alert( `This one:${i} val:${checkObj.val()}`) ;
+            })
+        })
+    })
+</script>
 </body>
 </html>

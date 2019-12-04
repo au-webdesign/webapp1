@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:script="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/9dbf1e34ab.js" crossorigin="anonymous"></script>
+    <title>Bootstrap</title>
+
+    <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $('#check_var').click(function() {
+                alert( "Hello" );
+                let rad1 = $("input:radio[id='r']:checked").val();
+                let rad2 = $("input:radio[id='g2']:checked").val();
+                alert( "rad1= " + rad1 );
+                alert( `and rad2:${rad2}` );
+            });
+        });
+    </script></head>
+<body>
+<form id='apple' name='apple'>
+    Group 1<br/>
+    <input type="radio"  name="r" id='r' value="radio1"/> radio1
+    <input type="radio"  name="r" id='r' value="radio2"/> radio2
+    <br/><br/>
+    Group 2<br/>
+    <input type="radio"  name="s" id='g2' value="radio3" /> radio3
+    <input type="radio"  name="s" is='g2' value="radio4" /> radio4
+    <button id='check_var'> Click to run </button>
+</form></body></html>

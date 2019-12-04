@@ -15,18 +15,16 @@
     <span> Hello there spanners stuff 111  </span>
 </p>
 <p class="bananas">
-    Please dont ask my why this is here
+    Banans
     <span> Hello there spanners </span>
 </p>
 <p id="myStuff3" style="display:none"> This better not be there </p>
 <p class="bananas" style="background-color:yellow"> Bananas are good </p>
 It is the time for android! <i class="fab fa-android" style="color:red"></i>
-<script
-        src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-        crossorigin="anonymous"></script>
+<script src="js.jquery.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<button id="btn">A Button</button>
 <script>
     $(document).ready( function(){
         alert("We made it")
@@ -36,6 +34,11 @@ It is the time for android! <i class="fab fa-android" style="color:red"></i>
         $("p span")
             .css("background-color", "blue")
             .css("font-size", "1.5em")
+        x = 0
+        $("btn").click( function(){
+            x = x + 1
+            alert( "X" +x )
+        })
     });
 </script>
 </body>

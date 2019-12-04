@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Bootstrap</title>
+</head>
+<body>
+<h1> Hello from BS </h1>
+<form name="myForm" action="www.someplace.com" method="get">
+    * Name: <input type="text" id="myName" name="myName" placeholder="Your Name" />
+    * Age: <input type="number" id="myAge" name="myAge" placeholder="Your Age" />
+   <input type="submit"  value="Click Me">
+</form>
+<script src="js/jquery.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function() {
+        // Write code that only submits if user provided values for name and age
+        // output a single alert message if missed one or more of name and age
+        $(':submit').click(function() {
+            let t1 = $("#myName").val()
+            let error = ""
+            alert( "t1=" +t1)
+            if (t1 == "" ) {
+                error += "Name is missing"
+            }
+            let t2 = $("#myAge").val()
+            if (t2 == "" ) {
+                error += "\nAge is missing"
+            }
+            if (error == "" ) {
+                return true
+            } else {
+                alert( error )
+                return false
+            }
+        })
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<html><head><title> A Simple Form </title>
+    <script type="text/javascript">
+        function validate() {
+            var user = '{"username" : "philb1234","location" : "Spain","height" : 1.80}';
+            var myObject = JSON.parse( user );
+            var out = '';
+            for ( i in myObject ) {
+                out += i + '=' + myObject[i] + '\n';
+            }
+            alert( out );
+
+        }
+    </script></head>
+<body>
+<br> Click button to start
+<input type=button onclick=validate(); value='Click to start'>
+</body></html>
