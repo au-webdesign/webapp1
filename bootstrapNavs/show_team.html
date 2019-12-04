@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Show your favorite team</title>
+    <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+    <script>
+        $(document).ready( function(){
+            $("input[name='team']").click( function() {
+                let team = $("input[name='team']:checked").val();
+                let URL = "footballInfo.php?TEAM=" + team
+                alert(`Hello there click OK:${URL} `);
+                $.get( URL, function(data, status){
+                    alert(`Data=${data}`);
+                    let toks = data.split(";");
+                    let oStr = "<table border='1'>";
+                    oStr += `<tr><td>${toks[0]}</td></tr>`;
+                    oStr += `<tr><td>${toks[1]}</td></tr>`;
+                    oStr += `<tr><td><img src="${toks[2]}"/></td></tr>`;
+                    oStr += `<tr><td>${toks[3]}/></td></tr>`;
+                    oStr += "</table>";
+                    $("#myDiv").html( oStr )
+                })
+            })
+        })
+    </script>
+</head>
+<body>
+<h2> Select your favorite team</h2>
+<input type="radio" name="team" id="team1" value="Bears"> Chicago Bears
+<input type="radio" name="team" id="team2" value="Lions"> Detroit Lions
+<div id="myDiv">Stuff here </div>
+</body>
+</html>
